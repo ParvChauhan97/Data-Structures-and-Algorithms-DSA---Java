@@ -1,4 +1,4 @@
-package Array;
+package ArrayProject;
 import java.util.Scanner;
 
 public class StudentManagement {
