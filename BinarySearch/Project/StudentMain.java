@@ -1,7 +1,8 @@
 package BinarySearch;
 import java.util.*;
 
-public static void main(String[] args) {
+public class StudentSearchSystem {
+   public static void main(String[] args) {
         Student[] students = {
                 new Student(101, "Aman"),
                 new Student(102, "Ravi"),
@@ -17,5 +18,5 @@ public static void main(String[] args) {
 
         if (index != -1) System.out.println("Student Found: " + students[index].name);
          else System.out.println("Student Not Found");
-        }
     }
+}
