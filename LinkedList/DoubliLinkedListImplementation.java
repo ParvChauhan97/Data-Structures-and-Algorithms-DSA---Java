@@ -18,8 +18,7 @@ class DLL{
             temp.next = head;
             head.prev = temp;
             head = temp;
-        }
-        size++;
+        } size++;
     }
     void insertAtTail(int val){
         ListNode temp = new ListNode(val);
@@ -28,8 +27,7 @@ class DLL{
             tail.next = temp;
             temp.prev = tail;
             tail = temp;
-        }
-        size++;
+        } size++;
     }
     void deleteAtHead(){
         if(size==0){
@@ -40,8 +38,7 @@ class DLL{
         else{
             head = head.next;
             head.prev = null;
-        }
-        size--;
+        } size--;
     }
     void deleteAtTail(){
         if(size==0){
@@ -52,8 +49,7 @@ class DLL{
         else{
             tail = tail.prev;
             tail.next = null;
-        }
-        size--;
+        } size--;
     }
     void display(){
         ListNode temp = head;
